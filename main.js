@@ -2,11 +2,11 @@
   'use strict';
 
   var INTERVAL = 2000;
-  var images=['ettomato.github.io/image1.jpg',
-              'ettomato.github.io/image2.jpg',
-              'ettomato.github.io/image3.jpg',
-              'ettomato.github.io/image4.jpg',
-              'ettomato.github.io/image5.jpg'];
+  var images=['slides/image1.jpg',
+              'slides/image2.jpg',
+              'slides/image3.jpg',
+              'slides/image4.jpg',
+              'slides/image5.jpg'];
 
   var current=0;
   var prev = document.getElementById('prev');
