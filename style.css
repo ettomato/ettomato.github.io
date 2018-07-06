@@ -1,0 +1,70 @@
+.container{
+  margin: 0 auto;
+  border: 1px solid black;
+  width: 720px;
+  background-color: black;
+}
+
+#main_image{
+  max-width: 100%;
+}
+
+#thumbnails{
+  margin: 5px;
+}
+
+ul{
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+li{
+  float: left;
+  margin-right: 10px;
+  width: 90px;
+  height: 60px;
+}
+
+img.thumbnail_image{
+  width: 90px;
+  height: 60px;
+  }
+
+
+.current_image{
+  border: 3px solid white;
+}
+
+.nav{
+  display:  inline-block;
+}
+
+.toolbar{
+  overflow: hidden;
+  text-align: center;
+}
+
+#prev{
+  color: white;
+  float: left;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+
+#next{
+  color: white;
+  float: left;
+  width:  40px;
+  height:  40px;
+  cursor: pointer;
+}
+
+#page{
+  display: inline-block;;
+  float: left;
+  height: 40px;
+  color: white;
+}
