@@ -2,11 +2,11 @@
   'use strict';
 
   var INTERVAL = 2000;
-  var images=['slides/image1.jpg',
-              'slides/image2.jpg',
-              'slides/image3.jpg',
-              'slides/image4.jpg',
-              'slides/image5.jpg'];
+  var images=['image1.jpg',
+              'image2.jpg',
+              'image3.jpg',
+              'image4.jpg',
+              'image5.jpg'];
 
   var current=0;
   var prev = document.getElementById('prev');
